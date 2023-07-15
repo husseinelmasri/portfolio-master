@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color:#000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a{
+display:block;
+    color:#262626;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    margin-right:1rem;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 22px 0px rgba(0,0,0,0.75);
+}
+
+.container{
+    width:90%;
+    max-width: 1100px;
+    margin:auto
+}
+img {
+max-width:100%;
+border-radius: 10px;
+}
+
+
+
+.header{
+    padding:1rem;
+    margin-top:3rem;
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    gap:2rem;
+    width:90%;
+   
+}
+
+
+.name-address{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.person-name{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.light-color{
+    color: #828282;
+    font-size: 1rem;
+
+}
+
+.column{
+    margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    padding:2rem;
+}
+.second-card .name-address{
+    margin-top:2rem;
+    flex-direction: column;
+}
+
+.address{
+    margin-top:2rem;
+}
+/*recipe blog */
+.recipe-blog{
+    margin-top:3rem;
+    display:grid;
+    gap:2rem;
+    grid-template-columns: 300px 1fr;
+    padding:2rem;
+}
+
+.blog-description p{
+    margin-top:1rem;
+}
+.blog-description h3{
+    margin-top:1rem;
+}
+
+.btns{
+    display:flex;
+    gap:3rem;
+    margin-top:0.5rem;
+}
+.background-blue{
+    background-color:#2F80ED;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border:1px solid #2F80ED;
+    border-radius: 10px;
+    COLOR:#fff;
+    
+}
+.background-white{
+    background-color:#fff;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border:1px solid #2F80ED;
+    border-radius: 10px;
+    
+}
+.bar{
+    width:70%;
+    height: 10px;
+    background-color: #828282;
+    border-radius: 20px;
+}
+
+.percent-react{
+    width: 70%;
+    background-color: #2F80ED; ;
+    height: 10px;
+    border-radius: 20px;
+    border:none;
+}
+.percent-javascript{
+    width: 30%;
+    background-color: #2F80ED; ;
+    height: 10px;
+    border-radius: 20px;
+    border:none;
+}
+.percent-css{
+
+
+width: 50%;
+background-color: #2F80ED; ;
+height: 10px;
+border-radius: 20px;
+border:none;}
+
+.front-end{
+    
+    padding:3rem;
+    margin-top:3rem;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.display-grid{
+    display:grid;
+grid-template-columns: 50px 100%;
+margin-bottom: 1rem;
+   gap:2rem;
+   align-items: center;
+}
+
+.first-3,.second-3{
+    width: 100%;
+}
+
+.blog{
+    margin-top: 3rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:3rem;
+}
+
+.text-area p{
+   padding-top:2rem;
+}
+.text-area a{
+    margin-top: 2rem;
+    color:#2F80ED;
+    font-weight: bold;
+}
+
+.bigger{
+font-size: 1.5rem;
+font-weight: bold;
+}
